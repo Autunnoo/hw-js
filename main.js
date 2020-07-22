@@ -25,6 +25,6 @@ console.log(allPrice.toFixed(2)); //#8
 
 const sale = Math.floor(Math.random() * Math.floor(99));    //#9
 console.log(sale);
-let z = (allPrice * sale)/100;
-let x = (allPrice / 2) - z;
+const z = (allPrice * sale)/100;
+const x = (allPrice / 2) - z; 
 console.log(Math.floor(x));
