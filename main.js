@@ -9,10 +9,10 @@ console.log(Math.max( belt , boots , gloves));  //#1
 //-------------------------------------
 console.log(Math.min( belt , boots , gloves));  //#2
 // //-------------------------------------
-let allPrice = belt + boots + gloves;   //#3
+const allPrice = belt + boots + gloves;   //#3
 console.log(allPrice);
 // //-------------------------------------
-let clierPrice = Math.floor(belt) + Math.floor(boots) + Math.floor(gloves); //#4
+const clierPrice = Math.floor(belt) + Math.floor(boots) + Math.floor(gloves); //#4
 console.log(clierPrice);
 // //-------------------------------------
 console.log(Math.round((clierPrice)/100)*100);  //#5
